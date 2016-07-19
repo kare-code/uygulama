@@ -8,6 +8,6 @@ class Haber extends Model
 {
     protected $table="haberler";
 
-    protected $fillable=['baslik','aciklama','user_id','icerik'];
+    protected $fillable=['baslik','aciklama','user_id','icerik','resim_500'];
     
 }

@@ -10,7 +10,7 @@
                     <div class="panel-heading">Haber Ekle</div>
 
                     <div class="panel-body">
-                        <form class="form-horizontal" method="post" action="haber-ekle" >
+                        <form class="form-horizontal" method="post" action="haber-ekle" enctype="multipart/form-data">
                             <input type="hidden" name="_token" value="{{csrf_token()}}">
                             <!--<input type="hidden" name="user_id" value="{{Auth::user()->id}}"> -->
 
@@ -48,7 +48,7 @@
                                 <div class="form-group">
                                     <label class="col-md-4 control-label" for="resim">Yükle</label>
                                     <div class="col-md-4">
-                                        <input id="resim" name="resim" class="input-file" type="file">
+                                        <input id="resim" name="image" class="input-file" type="file">
                                     </div>
                                 </div>
 

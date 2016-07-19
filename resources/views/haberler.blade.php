@@ -12,7 +12,7 @@
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-responsive" src="http://placehold.it/500x500">
+                            <img class="img-responsive" src="{{$haber->resim_500}}">
 
                         </div><!-- card image -->
 
